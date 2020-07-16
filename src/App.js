@@ -27,7 +27,6 @@ export default class App extends Component{
     }
     
     render() {
-        console.log(this.state.astronauts)
         return(
             <div>
                 {this.renderAstronauts()}
